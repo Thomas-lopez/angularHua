@@ -1,0 +1,54 @@
+footer {
+    color: white;
+    border-top: solid 1px white;
+}
+
+.footer__texto {
+    text-align: center;
+}
+
+.footer__texto--destacado {
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+
+.header__lista {
+    list-style: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__lista__link {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    
+    /* ANIMACION MENU */
+}
+
+.header__lista__link:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 1s;
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+header {
+    color: white;
+    border-bottom: solid 1px white;
+}
+
+
+body {
+/*     display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto; */
+    background-color: #1a1a1a;
+}
